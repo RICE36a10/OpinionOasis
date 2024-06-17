@@ -43,7 +43,7 @@ const SideNav = () => {
       <S.Wrapper>
         <S.TitleWrapper>
           <S.Title>
-            <S.H1>Frontend Mentor</S.H1>
+            <S.H1>OpinionOasis</S.H1>
             <S.P>Feedback Board</S.P>
           </S.Title>
           <Hamburger
@@ -154,7 +154,7 @@ const SideNav = () => {
       <S.Wrapper>
         <S.TitleWrapper>
           <S.Title>
-            <S.H1>Frontend Mentor</S.H1>
+            <S.H1>OpinionOasis</S.H1>
             <S.P>Feedback Board</S.P>
           </S.Title>
         </S.TitleWrapper>
