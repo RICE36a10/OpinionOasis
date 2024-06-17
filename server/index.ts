@@ -12,7 +12,7 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const cookieParser = require("cookie-parser");
-
+require('dotenv').config()
 const USERS = require("./models/user");
 
 const authRoutes = require("./routes/auth.ts");
@@ -21,9 +21,8 @@ const postRoutes = require("./routes/posts.ts");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const origin = "http://localhost:3000";
+const origin = process.env.Frontend_url;
 
-require("dotenv").config();
 
 app.use(cors({ credentials: true, origin: origin }));
 app.use(express.json({ limit: "20kb" }));
