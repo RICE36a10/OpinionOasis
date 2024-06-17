@@ -12,6 +12,7 @@
     "@mui/styled-engine-sc": "npm:@mui/styled-engine-sc@latest",
     "axios": "^0.21.4",
     "body-scroll-lock": "^4.0.0-beta.0",
+    "dotenv": "^16.4.5",
     "framer-motion": "^4.1.17",
     "gh-pages": "^3.2.3",
     "hamburger-react": "^2.4.1",

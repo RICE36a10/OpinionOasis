@@ -21,7 +21,7 @@ const postRoutes = require("./routes/posts.ts");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const origin = process.env.Frontend_url;
+const origin = process.env.FRONTEND_URL;
 
 
 app.use(cors({ credentials: true, origin: origin }));

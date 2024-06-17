@@ -1,7 +1,10 @@
 import axios from "axios";
 import type { Item, Comments_type, Replies } from "../Types";
 
-const url = "http://localhost:5000/posts";
+import dotenv from 'dotenv'
+dotenv.config()
+
+const url = `${process.env.BACKEND_URL}/posts`;
 
 export const fetchPosts = () => axios.get(url);
 export const addFeedback = (newPost: Item) => axios.post(url, newPost);

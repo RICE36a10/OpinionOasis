@@ -8,6 +8,10 @@ import { muiConstants } from "../../utilities/muiConstants";
 import { signup_success, signup_fail } from "../../utilities/notifications";
 import FileBase from "react-file-base64";
 
+
+import dotenv from 'dotenv'
+dotenv.config()
+
 const Signup = () => {
   const history = useHistory();
   const [form, setForm] = useState({});
@@ -15,7 +19,7 @@ const Signup = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLElement>) => {
     e.preventDefault();
     const { username, password, nickname, selectedFile } = form as any;
-    const URL = "http://localhost:5000/auth";
+      const URL = `${process.env.BACKEND_URL}/auth`;
     try {
       const res = await axios.post(URL + "/signup", {
         username,

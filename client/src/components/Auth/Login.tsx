@@ -10,6 +10,11 @@ import { login_success } from "../../utilities/notifications";
 import { getUser, loggedIn, loggedOut } from "../../actions";
 import { useDispatch, useSelector } from "react-redux";
 
+
+import dotenv from 'dotenv'
+dotenv.config()
+
+
 const Login = () => {
   const dispatch = useDispatch();
   const LOGGED = useSelector((state: any) => state.logged);
@@ -25,8 +30,9 @@ const Login = () => {
     axios.defaults.withCredentials = true;
 
     const { username, password } = form as any;
-    const URL = "http://localhost:5000/auth";
-    const PROFILE = "http://localhost:5000/profile";
+    const URL = `${process.env.BACKEND_URL}/auth`;
+    const PROFILE = `${process.env.BACKEND_URL}/profile`;
+
     try {
       const resp = await axios.post(URL + "/login", {
         username,
