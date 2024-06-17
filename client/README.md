@@ -1,5 +1,3 @@
-# Product feedback app - challenge by Frontend mentor
-
 
 ## Installation
 

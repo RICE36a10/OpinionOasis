@@ -4,14 +4,13 @@ const Footer = () => {
   return (
     <F.FooterContainer>
       <div>
-        Challenge by{" "}
+
         <a
           href="https://www.frontendmentor.io/solutions"
           style={F.InlineStyle.challenge}
           rel="nofollow noreferrer noopener"
           target="_blank"
         >
-          Frontend mentor
         </a>{" "}
         Coded By{" "}
         <a
@@ -20,7 +19,7 @@ const Footer = () => {
           rel="nofollow noreferrer noopener"
           target="_blank"
         >
-          Jay
+          Yash V
         </a>
       </div>
     </F.FooterContainer>
