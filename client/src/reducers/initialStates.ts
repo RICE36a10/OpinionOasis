@@ -2,7 +2,6 @@ export const initialState = {
   items: [
     // {
     //   id: "What_ajjaa",
-    //   username: "jay",
     //   link: "add_tags_for_solutions",
     //   title: "Add tags for solutions",
     //   detail: "Easier to search for solutions based on a specific stack.",
@@ -14,7 +13,6 @@ export const initialState = {
     //     {
     //       id: "abcd_abc",
     //       username: "11gg Moss",
-    //       avatar: "image-jay.jpg",
     //       user_id: "@hexagon.bestagon",
     //       comment: "this is comment",
     //       replies: [
@@ -28,14 +26,12 @@ export const initialState = {
     //         {
     //           id: "sadio_ASD",
     //           username: "1-2james dulex",
-    //           avatar: "image-jay.jpg",
     //           user_id: "@james.christina",
     //           comment: "comment comment comment",
     //         },
     //         {
     //           id: "sadio_GG",
     //           username: "1-2james dulex",
-    //           avatar: "image-jay.jpg",
     //           user_id: "@james.christina",
     //           comment: "This is not a comment",
     //         },
@@ -45,7 +41,6 @@ export const initialState = {
     // },
     // {
     //   id: "asd_asdASD",
-    //   username: "jay",
     //   link: "2_tags_for_solutions",
     //   title: "2 tags for solutions",
     //   detail: "Easier to search for solutions based on a specific stack.",
@@ -81,7 +76,6 @@ export const initialState = {
     // },
     // {
     //   id: "asdisdAa_jdjf",
-    //   username: "jay",
     //   link: "3_tags_for_solutions",
     //   title: "3 tags for solutions",
     //   detail: "Easier to search for solutions based on a specific stack.",
@@ -110,7 +104,6 @@ export const initialState = {
     // },
     // {
     //   id: "What_acxvDSa",
-    //   username: "jay",
     //   link: "4_tags_for_solutions",
     //   title: "4 tags for solutions",
     //   detail: "Easier to search for solutions based on a specific stack.",
@@ -153,7 +146,6 @@ export const initialState = {
     // },
     // {
     //   id: "What_acxvDaaSda",
-    //   username: "jay",
     //   link: "6_tags_for_solutions",
     //   title: "6 tags for solutions",
     //   detail: "Easier to search for solutions based on a specific stack.",
@@ -177,7 +169,6 @@ export const initialState = {
     // },
     // {
     //   id: "What_ag88da",
-    //   username: "jay",
     //   link: "7_tags_for_solutions",
     //   title: "7 tags for solutions",
     //   detail: "Easier to search23322 for solutions based on a specific stack.",
