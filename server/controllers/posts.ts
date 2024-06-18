@@ -58,6 +58,8 @@ const addComment: RequestHandler = async (req: Request, res: Response) => {
   res.json(updatedPost);
 };
 
+
+
 const addDirectReply: RequestHandler = async (req: Request, res: Response) => {
   const { id } = req.params;
   const { _key, username, avatar, user_id, comment, replies } = req.body;
